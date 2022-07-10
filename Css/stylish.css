@@ -1,4 +1,5 @@
 *
+*
 {
     padding: 0%;
     margin: 0%;
@@ -39,7 +40,7 @@
 
 .color-overlay
 {
-    height: 335px;
+    height: 447px;
     width: 100%;
     background:  hsl(277, 64%, 61%);
     opacity: .6;
@@ -50,7 +51,7 @@
 
 .item1
 {
-    margin:1% 7%;
+    margin:6% 7%;
     font-size: 15px;
 
     
@@ -60,6 +61,7 @@ h1
 {
     color:hsl(0, 0%, 100%);
     font-family: 'Inter', sans-serif;
+    font-size: 1.9rem;
 }
 
 
@@ -72,7 +74,7 @@ span
 h1
 {
     position: relative;
-    top: 20px;
+    top:10px;
     
 }
 
@@ -81,9 +83,10 @@ h1
     
     color: hsla(0, 0%, 100%, 0.6);
     font-family: 'Lexend Deca', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     margin-top: 45px;
-    margin-bottom: 50px;
+    line-height: 1.5;
+    
     
 }
 
@@ -108,6 +111,8 @@ strong
     text-transform: uppercase;
     font-family: 'Inter', sans-serif;
     font-size: 12px;
+    position: relative;
+    top:80px;
     
 }
 
@@ -115,7 +120,8 @@ strong
 {
     display: flex;
     justify-content: space-between;
-    color: hsla(0, 0%, 100%, 0.6)
+    color: hsla(0, 0%, 100%, 0.6);
+    line-height: 1.5;
 
 }
 
